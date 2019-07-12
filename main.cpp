@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+#include "Shape.h"
+
 int main()
 {
 	std::cout << "Greetings, World!\n";
@@ -13,6 +15,8 @@ int main()
 		std::cout << e << " ";
 	
 	std::cout << "\n";
+	
+	Shape newShape;
 	
 	return 0;
 }
