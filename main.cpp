@@ -8,7 +8,9 @@ int main()
 	std::vector<int> newlist = { 1, 2, 3, 4, 5 };
 	
 	for(auto& e : newlist)
-		std::cout << e << "\n";
+		std::cout << e << " ";
+	
+	std::cout << "\n";
 	
 	return 0;
 }
