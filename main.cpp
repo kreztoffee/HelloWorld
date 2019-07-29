@@ -5,6 +5,7 @@
 
 int main()
 {
+	// send greetings
 	std::cout << "Greetings, World!\n";
 	
 	// create a list of numbers
