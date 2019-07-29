@@ -15,6 +15,7 @@ int main()
 	for(auto& e : newlist)
 		std::cout << e << " ";
 	
+	// new line required
 	std::cout << "\n";
 	
 	Shape newShape;
