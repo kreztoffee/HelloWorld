@@ -6,6 +6,9 @@ class Shape
 {
 public:
 	Shape();
+
+	std::size_t calculateArea();
+
 private:
 	std::size_t sides;
 	std::size_t area;

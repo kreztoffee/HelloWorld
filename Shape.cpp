@@ -7,3 +7,8 @@ Shape::Shape()
 {
 	
 }
+
+std::size_t Shape::calculateArea()
+{
+	return 0;
+}
