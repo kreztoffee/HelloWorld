@@ -18,6 +18,7 @@ int main()
 	std::cout << "\n";
 	
 	Shape newShape;
-	
+	newShape.calculateArea();
+
 	return 0;
 }
