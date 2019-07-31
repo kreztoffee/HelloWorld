@@ -25,6 +25,7 @@ int main()
 	std::cout << "sum: " << sum;
 
 	Shape newShape;
+	newShape.setWidthAndHeight(5, 4);
 	std::size_t area = newShape.calculateArea();
 
 	std::cout << "\n";
