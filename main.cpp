@@ -24,11 +24,12 @@ int main()
 	std::cout << "\n";
 	std::cout << "sum: " << sum;
 
-	// new line required
-	std::cout << "\n";
-	
 	Shape newShape;
-	newShape.calculateArea();
+	newShape.setWidthAndHeight(5, 4);
+	std::size_t area = newShape.calculateArea();
+
+	std::cout << "\n";
+	std::cout << "area: " << area;
 
 	return 0;
 }
